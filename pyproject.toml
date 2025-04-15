@@ -1,0 +1,22 @@
+[project]
+name = "schedule1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "christoffer", email = "csom@itu.dk" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.1",
+    "networkx>=3.4.2",
+    "pandas>=2.2.3",
+]
+
+[project.scripts]
+schedule1 = "schedule1:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
